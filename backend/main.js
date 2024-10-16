@@ -175,6 +175,6 @@ app.use('/suchit', orderRoute)
 app.use('/suchit', adminRoute)
 app.use('/suchit', wishRoute)
 
-app.listen(4222,()=>{
-    console.log(`server is running on ${process.env.PORT}`)
+app.listen(4333,()=>{
+    console.log(`server is running on 4333`)
 })
